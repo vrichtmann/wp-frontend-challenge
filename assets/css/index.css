@@ -1,9 +1,14 @@
 
 /* HEADER */
+
+header{
+    background-color: #ecdce1;
+}
+
 .hearder_borderTop {
-    /* background-color: #f8f9fa!important; */
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,9,121,0) 100%);
     border-top: 8px solid #e13868;
+    min-height: 200px;
 }
 
 .hearder_texts {
@@ -25,4 +30,93 @@
     -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
+}
+
+
+/* Body */
+
+.mainPage{
+    background-color: #ecdce1;
+}
+
+.mainPageIMG{
+    width: 100%;
+    user-select: none;
+}
+
+.sectionH1{
+    float: right;
+}
+
+.sectionH1 p{
+    float: right;
+    text-align: left;
+    font-weight: bold;
+    color: #1A2C3A;
+    width: 100%;
+    font-size: 80px;
+    margin-top: 60px;
+    line-height: 65px;
+    font-family: darkergrotesque;
+    user-select: none;
+    text-shadow: 4px 3px 3px rgb(181 13 13 / 66%), 6px 4px 0px #ffffff;
+}
+
+.sectionH1 p:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 110px;
+    border-radius: 20px;
+    top: 41px;
+    border-bottom: 18px solid #cf6363;
+    position: relative;
+}
+
+.sectionH1 p:after{
+    content: "";
+    text-shadow: 6px 3px 3px rgb(255 255 255 / 40%);
+
+}
+
+.mainPageTitle{
+    font-family: "DarkerGrotesque-Black, Darker Grotesque";
+}
+
+.mainPage_JamCity{
+    float: right;
+}
+
+.mainPage_JamCity p{
+    float: right;
+    text-align: left;
+    color: #383838;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 60px;
+    line-height: 35px;
+    user-select: none;
+    margin-left: 73px;
+}
+
+.mainPageClick{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+.learnMore{
+    float: right;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 360px;
+    background-color: #ed0c74;
+    font-size: 22px;
+    color: gainsboro;
+    border-radius: 19px;
+    border: none;
+    cursor: pointer;
+    font-family: darkergrotesque;
 }
