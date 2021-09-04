@@ -6,9 +6,10 @@ header{
 }
 
 .hearder_borderTop {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(9,9,121,0) 100%);
+    background: linear-gradient(180deg, rgb(255 255 255) 0%, rgb(255 255 255 / 0%) 100%);
     border-top: 8px solid #e13868;
     min-height: 200px;
+    z-index: 1;
 }
 
 .hearder_texts {
@@ -25,6 +26,15 @@ header{
     cursor: pointer;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link :hover{
+    /* color: rgb(0 0 0 / 12%) !important; */
+}
+
+
 .clickHeaderIcon:hover{
     opacity: 0.8;
     -webkit-transition: all 0.4s;
@@ -37,6 +47,22 @@ header{
 
 .mainPage{
     background-color: #ecdce1;
+}
+
+.mainBG_game{
+    background: url(../img/body/main_bg.png);
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: -40%;
+    left: -2%;
+    z-index: 78;
+    transform: scale(1.5);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
 }
 
 .mainPageIMG{
@@ -69,7 +95,7 @@ header{
     width: 110px;
     border-radius: 20px;
     top: 41px;
-    border-bottom: 18px solid #cf6363;
+    border-bottom: 18px solid #f57f7f;
     position: relative;
 }
 
@@ -112,7 +138,7 @@ header{
     height: 60px;
     margin-top: 30px;
     margin-right: 360px;
-    background-color: #ed0c74;
+    background-color: #ff006f;
     font-size: 22px;
     color: gainsboro;
     border-radius: 19px;
@@ -120,3 +146,12 @@ header{
     cursor: pointer;
     font-family: darkergrotesque;
 }
+
+.learnMore>button {
+    transition: all .5s ease-in-out;
+}
+
+.learnMore>button:hover {
+    background-color: white;
+}
+
