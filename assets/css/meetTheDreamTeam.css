@@ -1,0 +1,85 @@
+
+.meetTheDreamTeam{
+    background-color: #F2F2F2;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.meetTheDreamTeam_title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: darkergrotesque;
+    user-select: none;
+}
+
+.meetTheDreamTeam_title p{
+    font-size: 66px;
+    color: #212529;
+}
+
+.meetTheDreamTeam_subTitle{
+    text-align: center;
+    margin-top: 10px;
+    font-family: darkergrotesque_regular;
+    user-select: none;
+}
+
+
+.meetTheDreamTeam_subTitle p{
+    font-size: 29px;
+    font-weight: bold;
+    color: #1A2C3A;
+}
+
+.meetTheDreamTeam_container{
+    width: 100%;
+}
+
+#rigthPearson{
+    float: left;
+}
+
+#leftPearson{
+    float: right;
+}
+#leftPearson .photoPearson{
+    float: right;
+}
+
+.backgroundPhoto{
+    background-image: url(../../assets/img/body/meetTheDreamTeam/meetTheDreamTeam_bg1.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    margin-top: calc(-40%);
+    left: calc(50% - 495px);
+    position: relative;
+    z-index: 1;
+    transform: scale(0.8);
+}
+
+.photoPearson{
+    width: 78%;
+    height: auto;
+}
+
+.meetTheDreamTeam_learnMoreClick{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: -124px;
+    z-index: 2;
+}
+
+.meetTheDreamTeam_learnMore{
+    height: 58px;
+    width: 259px;
+    background-color: #eb3768;
+    font-size: 24px;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+    font-family: darkergrotesque;
+}
