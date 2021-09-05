@@ -10,6 +10,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'darkergrotesque_regular';
+    src: url('DarkerGrotesque-Regular.ttf') format('woff2'),
+         url('DarkerGrotesque-Regular.tff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
 /* 
 
 

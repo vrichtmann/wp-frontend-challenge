@@ -1,0 +1,110 @@
+
+.mainPage{
+    background-color: #ecdce1;
+}
+
+.mainBG_game{
+    background: url(../img/body/mainPage/main_bg.png);
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: -40%;
+    left: -2%;
+    z-index: 78;
+    transform: scale(1.5);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+}
+
+.mainPageIMG{
+    width: 100%;
+    user-select: none;
+}
+
+.sectionH1{
+    float: right;
+}
+
+.sectionH1 p{
+    float: right;
+    text-align: left;
+    font-weight: bold;
+    color: #1A2C3A;
+    width: 100%;
+    font-size: 80px;
+    margin-top: 60px;
+    line-height: 65px;
+    font-family: darkergrotesque;
+    user-select: none;
+    text-shadow: 4px 3px 3px rgb(181 13 13 / 66%), 6px 4px 0px #ffffff;
+}
+
+.sectionH1 p:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 75px;
+    border-radius: 4px;
+    top: 30px;
+    border-bottom: 13px solid #f57f7f;
+    position: relative;
+}
+
+.sectionH1 p:after{
+    content: "";
+    text-shadow: 6px 3px 3px rgb(255 255 255 / 40%);
+
+}
+
+.mainPageTitle{
+    font-family: "DarkerGrotesque-Black, Darker Grotesque";
+}
+
+.mainPage_JamCity{
+    float: right;
+}
+
+.mainPage_JamCity p{
+    float: right;
+    text-align: left;
+    color: #383838;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 44px;
+    line-height: 21px;
+    user-select: none;
+    margin-left: 216px;
+}
+
+.mainPageClick{
+    position: relative;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+.learnMore{
+    float: right;
+    width: 150px;
+    height: 38px;
+    margin-top: 11px;
+    margin-right: 408px;
+    background-color: #eb3768;
+    font-size: 17px;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+    font-family: darkergrotesque;
+}
+
+.learnMore>button {
+    transition: all .5s ease-in-out;
+}
+
+.learnMore>button:hover {
+    background-color: white;
+}

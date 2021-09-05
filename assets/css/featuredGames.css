@@ -1,0 +1,79 @@
+
+.featuredGames_title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: darkergrotesque;
+    user-select: none;
+}
+
+.featuredGames_title p{
+    font-size: 66px;
+}
+
+.featuredGamesSub_title{
+    text-align: center;
+    margin-top: 10px;
+    font-family: darkergrotesque_regular;
+    user-select: none;
+}
+
+.featuredGamesSub_title p{
+    font-size: 29px;
+    font-weight: bold;
+    color: #1A2C3A;
+}
+
+.shadownCard{
+    box-shadow: rgb(0 0 0 / 34%) 12px 12px 18px;
+    border-radius: 20px;
+}
+
+.paddingCard{
+    padding: 12px 18px;
+}
+
+.gameTitle{
+    position: absolute;
+    font-family: darkergrotesque;
+    font-size: 28px;
+    top: calc(83%);
+    left: 8%;
+    width: 80%;
+    text-align: center;
+    user-select: none;
+}
+
+.seeDetails{
+    position: absolute;
+    font-family: 'darkergrotesque';
+    font-size: 13px;
+    font-weight: bold;
+    top: calc(91%);
+    left: 8%;
+    color: #eb3768;
+    width: 80%;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.faturedGamesClick{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.browseMoreGames{
+    height: 38px;
+    width: 179px;
+    margin-top: 11px;
+    background-color: #eb3768;
+    font-size: 17px;
+    color: white;
+    border-radius: 11px;
+    border: none;
+    cursor: pointer;
+    font-family: darkergrotesque;
+}

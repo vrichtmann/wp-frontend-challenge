@@ -1,0 +1,47 @@
+/* HEADER */
+
+header{
+    background-color: #ecdce1;
+}
+
+.hearder_borderTop {
+    background: linear-gradient(180deg, rgb(255 255 255 / 57%) 0%, rgb(255 255 255 / 0%) 100%);
+    border-top: 8px solid #e13868;
+    min-height: 83px;
+    z-index: 1;
+}
+
+.hearder_texts {
+    width: auto;
+    height: 38px;
+    text-align: left;
+    color: #1A2C3A;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 23px;
+}
+
+.clickHeaderIcon{
+    cursor: pointer;
+}
+
+.webIcons li{
+    padding: 4px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link :hover{
+    /* color: rgb(0 0 0 / 12%) !important; */
+}
+
+
+.clickHeaderIcon:hover{
+    opacity: 0.8;
+    -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
