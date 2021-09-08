@@ -15,6 +15,8 @@
 }
 
 .noPadding{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
@@ -69,4 +71,69 @@
     padding-top: 35px;
     font-size: 29px;
     font-family: darkergrotesque;
+}
+
+@media only screen and (max-width: 1366px) {
+    .footer_map {
+        height: 346px;
+    }
+    .footerAndress {
+        width: 100%;
+        padding-top: 4%;
+        font-size: 51px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer_map {
+        background-position-y: -96px;
+        background-position-x: -4px;
+        background-size: cover;
+    }
+
+    .jamCityIMG {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconsFooter{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jamcityFooter {
+        float: right;
+        width: 50%;
+    }
+
+    .footer_jamCity {
+        height: auto;
+    }
+
+    .iconsFooterJam{
+        width: 15% !important;
+        height: auto;
+    }
+
+    .textDescription_footer {
+        margin-top: 0px;
+    }
+
+    .infoJam{
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 31px;
+        margin-top: 95px;
+    }
+   
+    .textDescription_footer2 {
+        margin-top: calc(6% - 36px);
+    }
+
+    .footer_2020 {
+        font-size: 36px;
+        text-align: center;
+        width: 100%;
+        padding: 80px;
+    }
 }

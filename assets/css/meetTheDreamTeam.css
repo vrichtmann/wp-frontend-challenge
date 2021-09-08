@@ -83,3 +83,41 @@
     cursor: pointer;
     font-family: darkergrotesque;
 }
+
+@media only screen and (max-width: 1366px) {
+    .meetTheDreamTeam {
+        margin-top: 160px;
+    }
+
+    .meetTheDreamTeam_title p {
+        font-size: 80px;
+    }
+    .meetTheDreamTeam {
+        width: 100%;
+    }
+    .meetTheDreamTeam_subTitle p {
+        font-size: 75px;
+        padding: 75px;
+        font-weight: bold;
+        font-family: 'darkergrotesque_regular';
+        color: #1A2C3A;
+    }
+    .boldTXT {
+        font-weight: bold !important;
+        color: #18188a;
+    }
+    .photoPearson {
+        width: 100%;
+    }
+
+    .meetTheDreamTeam_learnMore {
+        height: 124px;
+        width: 438px;
+        font-size: 58px;
+        border-radius: 41px;
+    }
+
+    .meetTheDreamTeam_learnMoreClick {
+        top: -164px;
+    }
+}
