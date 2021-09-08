@@ -45,3 +45,29 @@ header{
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+@media only screen and (max-width: 1366px) {
+    .ml-auto, .mx-auto {
+        margin-left: auto!important;
+        background-color: #ffffffb8;
+        border-right: 4px solid #00000030;
+        border-bottom: 4px solid #00000030;
+        border-left: 4px solid #00000030;
+    }
+
+    .hearder_texts {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        height: auto;
+    }
+
+    .navbar-brand{
+        width: 600px;
+        height: 100%;
+        
+    }
+}
+

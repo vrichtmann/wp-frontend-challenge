@@ -136,4 +136,11 @@
         width: 100%;
         padding: 80px;
     }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        width: 220px;
+        height: 170px;
+        margin-top: 20px;
+    }
 }
